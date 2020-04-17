@@ -16,9 +16,9 @@ img {
     height: auto;
 }
 .navigation {
-    width: 900px;
     font-size: 0;
-    padding: 104px 170px;      
+    padding: 104px 0px;
+    text-align: center;     
 }
 .navigation li {
     display: inline-block; 
@@ -79,6 +79,9 @@ img {
     color: #626262;
     margin: 30px 0;
 }
+.section-text {
+    color: #626262
+}
 
 button {
     width: 164px;
@@ -87,7 +90,7 @@ button {
     font-size: 20px;
     line-height: 24px;
 }
-.button {
-    width: 164px;
-    margin: 0 auto;
+.button-box {
+    text-align: center;
+    margin-bottom: 60px;
 }
